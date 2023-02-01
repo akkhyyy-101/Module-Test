@@ -1,0 +1,62 @@
+body {
+    background-color: #12cbc4;
+  }
+  h1 {
+    color: #5758bb;
+    text-align: center;
+    font-size: 45px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+  }
+
+  .registration-form {
+    display: none;
+    position: absolute;
+    margin-top: 95px;
+    padding: 20px;
+    background-color: #c4e538;
+    border-radius: 10px;
+  }
+
+  .dice-image {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe;
+    border-radius: 10px;
+  }
+
+  #dice-result {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .congratulatory-image {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe;
+    border-radius: 10px;
+  }
+
+  .bad-luck {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }

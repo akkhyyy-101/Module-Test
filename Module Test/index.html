@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Module Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Coupon</h1>
+    <div class="container">
+      <img
+        class="image"
+        id="image1"
+        src="Images/img1.jpeg"
+        alt="image1"
+        onclick="openRegistrationForm()"
+      />
+      <img
+        class="image"
+        id="image2"
+        src="Images/img2.jpeg"
+        alt="image2"
+        onclick="showUsername()"
+      />
+      <img
+        class="image"
+        id="image3"
+        src="Images/img3.jpeg"
+        alt="image3"
+        onclick="showDice()"
+      />
+      <img
+        class="image"
+        id="image4"
+        src="Images/img4.jpeg"
+        alt="image4"
+        onclick="generateCoupon()"
+      />
+    </div>
+
+    <div class="registration-form">
+      <h1>Registration Form</h1>
+      <label>Name :</label>
+      <input type="text" id="name" />
+      <label>Email :</label>
+      <input type="email" id="email" />
+      <label>Username :</label>
+      <input type="text" id="username" />
+      <button onclick="registerUser()">Register</button>
+    </div>
+
+    <div id="userinfo">
+      <h1 id="info"></h1>
+    </div>
+
+    <div class="dice-image">
+      <h1>Dice Game</h1>
+      <img
+        src="Images/dice.jpg"
+        alt="dice"
+        height="100px"
+        onclick="generateDiceNumber()"
+      />
+      <p id="dice-result"></p>
+    </div>
+
+    <div class="coupon">
+      <p id="coupon-number"></p>
+    </div>
+
+    <div class="congratulatory-image">
+      <img src="Images/congratulations.webp" height="100px" alt="congrats" />
+    </div>
+
+    <div class="bad-luck">
+      <h1>Bad Luck!</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
